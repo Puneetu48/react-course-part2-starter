@@ -18,5 +18,3 @@ This repository belongs to part 2 of my React course covering intermediate-level
 - All about reducers, context, and providers
 - Managing application state with Zustand
 - Routing with React Router 
-
-You can find the course at https://codewithmosh.com
