@@ -4,11 +4,13 @@ import UserDetail from "./UserDetail";
 import UserList from "./UserList";
 import Layout from "./Layout";
 import UsersPage from "./UsersPage";
+import ErrorPage from "./ErrorPage";
 
 const router = createBrowserRouter([
   {
     path: "/",
     element: <Layout />,
+    errorElement: <ErrorPage />,
     children: [
       { index: true, element: <HomePage /> },
       {
